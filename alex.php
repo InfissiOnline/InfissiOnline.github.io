@@ -31,8 +31,6 @@
 
     echo "Il risultato è: $risultato";
 
-    $data = "num1: $num1, num2: $num2, op: $op, risultato: $risultato\n";
-    file_put_contents("/home/claudio/Scrivania/calc.txt", $data, FILE_APPEND);
 
     ?> 
 
