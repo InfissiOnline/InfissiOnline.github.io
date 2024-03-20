@@ -2,9 +2,9 @@
 
 
     <?php
-    $num1 = $_POST["num1"];
-    $num2 = $_POST["num2"];
-    $op = $_POST["op"];
+    $num1 = $_GET["num1"];
+    $num2 = $_GET["num2"];
+    $op = $_GET["op"];
 
     function calcolatrice($num1,$num2,$op){
     switch ($op) {
